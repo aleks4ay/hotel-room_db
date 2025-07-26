@@ -36,7 +36,7 @@ public class DatabaseMigrationTest {
 
     @Test
     void testMigrationsApplied() throws Exception {
-        String query = "SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'test_table'";
+        String query = "SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Hotel'";
         try (Connection conn = dataSource.getConnection(); ResultSet rs = conn.createStatement().executeQuery(query)) {
             rs.next();
             int count = rs.getInt(1);
