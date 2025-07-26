@@ -1,4 +1,4 @@
-package com.aleks4ay;
+package com.aleks4ay.room.db;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

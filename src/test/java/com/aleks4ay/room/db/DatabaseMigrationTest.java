@@ -1,4 +1,4 @@
-package com.aleks4ay;
+package com.aleks4ay.room.db;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
