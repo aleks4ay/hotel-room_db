@@ -4,7 +4,7 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=liquibase_db;encrypt=false
+    url: jdbc:sqlserver://localhost:1433;databaseName=hotel_room_db;encrypt=false
     username: sa
     password: sa
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
